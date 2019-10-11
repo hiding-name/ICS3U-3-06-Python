@@ -19,13 +19,13 @@ def main():
 
     # process
     try:
-        # input
+        # input`
         guess = int(input("Guess the number: "))
         if guess == number:
             # output
             print("Good job, you got it.")
         else:
-            print("You got it wrong.")
+            print("You got it wrong. It was " + str(number))
     except Exception:
         print("Invalid input.")
 
